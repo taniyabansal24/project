@@ -32,7 +32,7 @@ const Circular = () => {
   }, [fov]);
 
   return (
-    <div className="circular w-[60vh] h-[80vh] sm:w-[90vh] sm:h-[90vh] sm:pl-[10%] md:w-[100vh] md:pl-[15%] rounded-[50%] md:h-[85vh] lg:w-[150vh] lg:h-[100vh] lg:pl-[25%] absolute lg:top-[-45px] ">
+    <div className="circular w-[47vh] h-[80vh] sm:w-[90vh] sm:h-[90vh] sm:pl-[10%] md:w-[100vh] md:pl-[15%] rounded-[50%] md:h-[85vh] lg:w-[150vh] lg:h-[100vh] lg:pl-[25%] absolute lg:top-[-45px] ">
       <Canvas camera={{ fov }}>
         <OrbitControls />
         <ambientLight />

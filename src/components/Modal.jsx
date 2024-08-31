@@ -5,7 +5,7 @@ import "./Modal.css";
 export default function Modal({isOpen, setIsOpen}) {
   return (
     <div className={`fixed z-10 inset-0 flex items-center justify-center px-4 bg-black/40 ${isOpen ? '' : 'hidden'}`}>
-      <div className="about-section items-center justify-center flex flex-col md:flex-row rounded-lg grow relative max-w-[19rem] sm:max-w-[60rem] bg-[#191919] p-4 shadow-lg h-fit md:h-[700px]">
+      <div className="about-section items-center justify-center flex flex-col md:flex-row rounded-lg grow relative max-w-[60rem] bg-[#191919] p-4 shadow-lg h-fit md:h-[700px]">
         <div onClick={()=>setIsOpen(false)} className="x-icon bg-[#27292d] rounded-[50%] absolute w-8 h-8 right-[15px] top-[15px] text-white flex items-center justify-center">
           <i className="bx bx-x"></i>
         </div>
