@@ -5,7 +5,7 @@ import "./Modal.css";
 export default function Modal({isOpen, setIsOpen}) {
   return (
     <div className={`fixed z-10 inset-0 flex items-center justify-center px-4 bg-black/40 ${isOpen ? '' : 'hidden'}`}>
-      <div className="about-section flex flex-col md:flex-row rounded-lg grow relative max-w-[60rem] bg-[#191919] p-4 shadow-lg h-fit md:h-[700px]">
+      <div className="about-section flex flex-col md:flex-row rounded-lg grow relative max-w-[19rem] bg-[#191919] p-4 shadow-lg h-fit md:h-[700px]">
         <div onClick={()=>setIsOpen(false)} className="x-icon bg-[#27292d] rounded-[50%] absolute w-8 h-8 right-[15px] top-[15px] text-white flex items-center justify-center">
           <i className="bx bx-x"></i>
         </div>
@@ -78,7 +78,7 @@ export default function Modal({isOpen, setIsOpen}) {
               <h2 className="mern mb-[2.2em] mt-[2em] text-[#1788ae] font-['Spartan']">
                 MERN STACK
               </h2>
-              <div className="top-skills-icons flex relative mt-[3rem] md:mt-[4rem] gap-12 md:gap-16">
+              <div className="top-skills-icons flex relative mt-[3rem] md:mt-[4rem] gap-[2rem] md:gap-16">
                 <div className="mongodb-icon cursor-default flex flex-col items-center gap-5 relative">
                   <div className="tooltip opacity-0  absolute text-white text-sm md:text-base bg-[#47a248] md:right-[-23px] rounded-3xl py-1 md:py-2 px-[10px] md:px-[14px] top-[-10px] transition-all duration-200 ease-in-out ">
                     <span className="relative z-[1] ">mongoDB</span>

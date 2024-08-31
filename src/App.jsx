@@ -23,7 +23,7 @@ function App() {
   return (
     <>
       <div className="bg-black">
-        <section className="flex flex-col justify-between h-screen px-5 sm:px-16 py-5 w-full max-w-screen-2xl mx-auto">
+        <section className="flex flex-col justify-between h-[90vh] sm:h-screen px-5 sm:px-16 py-5 w-full max-w-screen-2xl mx-auto">
           <Header />
           <Home />
           <div className="relative self-center after:content-[''] after:absolute after:w-[2px] after:h-5 after:bg-[#444] after:left-1/2 after:-translate-x-1/2 after:top-[100px]">
