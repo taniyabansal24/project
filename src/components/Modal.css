@@ -1,0 +1,45 @@
+.tooltip::after{
+    content: '';
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    transform: rotate(45deg) translateX(-50%);
+    left: 50%;
+    bottom: -12px;
+    background-color: inherit;
+}
+.mongodb-icon:hover .tooltip{
+    top: -60px;
+    opacity: 1;
+}
+.express-icon:hover .tooltip{
+    top: -60px;
+    opacity: 1;
+}
+.react-icon:hover .tooltip{
+    top: -60px;
+    opacity: 1;
+}
+.node-icon:hover .tooltip{
+    top: -60px;
+    opacity: 1;
+}
+
+@media screen and (max-width:768px) {
+    .mongodb-icon:hover .tooltip{
+        top: -45px;
+        opacity: 1;
+    }
+    .express-icon:hover .tooltip{
+        top: -45px;
+        opacity: 1;
+    }
+    .react-icon:hover .tooltip{
+        top: -45px;
+        opacity: 1;
+    }
+    .node-icon:hover .tooltip{
+        top: -45px;
+        opacity: 1;
+    }
+}
