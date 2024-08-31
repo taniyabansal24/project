@@ -12,7 +12,9 @@ const Contact_us = () => {
           <div className="w-full">
             <img src={img} alt="phone" />
           </div>
-          <form className="w-full" name="contactUS" netlifymethod="POST" data-netlify="true">
+          <form className="w-full" name="contactUS"
+            method="POST"
+            data-netlify="true">
             <label
               for="name"
               className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
