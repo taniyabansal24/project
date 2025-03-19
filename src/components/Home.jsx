@@ -15,8 +15,17 @@ const Home = () => {
           Taniya Bansal
         </h1>
         <p className="font-['Merriweather'] italic mb-[30px]">
-          <FlipWords words={["Frontend", "Backend", "MERN Stack", "WordPress"]} /> Developer
+          <FlipWords
+            words={[
+              "Frontend",
+              "Backend",
+              "MERN Stack",
+              "DSA Enthusiast",
+            ]}
+          />
+          Developer
         </p>
+
         <button
           onClick={() => setIsOpen(true)}
           className="bg-[#4595eb] py-2 px-5 rounded font-extrabold bg-gradient-to-l from-[#1595b6] to-[#1f2667e6] relative hover:scale-110 ease-in-out duration-100 group"
@@ -65,7 +74,7 @@ const Home = () => {
         </li>
         <li className="hover:text-white">
           <a href="https://leetcode.com/taniyabansal24">
-            <SiLeetcode className="text-[#B1B3C3] hover:text-white" /> 
+            <SiLeetcode className="text-[#B1B3C3] hover:text-white" />
           </a>
         </li>
       </ul>
