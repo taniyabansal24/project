@@ -1,18 +1,21 @@
 import React, { useState } from "react";
-import Circular from "./Circular";
+import { SiLeetcode } from "react-icons/si"; // ✅ Import LeetCode icon
 import arrow from "../assets/right-arrow.png";
 import Modal from "./Modal";
+import TechStack from "./TechStack";
+import { FlipWords } from "./Magicui/flip-words";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
+
   return (
-    <div className="flex flex-col sm:flex-row items-center text-white font-['Numito'] h-[66%]">
-      <div className="content z-10">
+    <div className="flex flex-col sm:flex-row items-center text-white font-['Numito'] w-[96%]">
+      <div className="content z-10 w-[85%]">
         <h1 className="text-[40px] md:text-[50px] lg:text-[64px] font-['Spartan']">
           Taniya Bansal
         </h1>
         <p className="font-['Merriweather'] italic mb-[30px]">
-          MERN Stack Developer
+          <FlipWords words={["Frontend", "Backend", "MERN Stack", "WordPress"]} /> Developer
         </p>
         <button
           onClick={() => setIsOpen(true)}
@@ -39,10 +42,14 @@ const Home = () => {
         </button>
         <Modal isOpen={isOpen} setIsOpen={setIsOpen} />
       </div>
-      <Circular />
+
+      <div className="w-[60%] pr-8">
+        <TechStack />
+      </div>
+
       <ul className="text-4xl mt-[46px] sm:mt-0 sm:ml-auto text-[#b0b3c3] sm:space-y-6 sm:right-5 md:right-11 flex sm:flex-col gap-[30px] absolute sm:gap-0 bottom-[108px] sm-bottom-auto ">
         <li className="hover:text-white">
-          <a href="www.linkedin.com/in/taniyabansal24">
+          <a href="https://www.linkedin.com/in/taniyabansal24">
             <i className="bx bxl-linkedin"></i>
           </a>
         </li>
@@ -57,8 +64,8 @@ const Home = () => {
           </a>
         </li>
         <li className="hover:text-white">
-          <a href="https://www.instagram.com/taniyabansal24?igsh=dmd3ZndtMTdkZmF3">
-            <i className="bx bxl-instagram"></i>
+          <a href="https://leetcode.com/taniyabansal24">
+            <SiLeetcode className="text-[#B1B3C3] hover:text-white" /> 
           </a>
         </li>
       </ul>
@@ -67,6 +74,3 @@ const Home = () => {
 };
 
 export default Home;
-
-
-

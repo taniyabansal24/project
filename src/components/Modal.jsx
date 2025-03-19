@@ -15,10 +15,7 @@ export default function Modal({isOpen, setIsOpen}) {
               ABOUT ME
             </h2>
             <p className="about-me-detail text-white text-sm md:text-base mb-0 sm:mb-5">
-              I help business owners and busy web developers to design &amp;
-              develop creative websites that fits their vision and attracts the
-              visitors to stay for ever. Technologies and tools that I use to
-              create such awesome websites.
+            I am a Web Developer proficient in MERN Stack and a JavaScript Programmer, currently pursuing my studies at IIT Patna. Alongside web dev, I have a strong foundation in DSA and Java, allowing me to build efficient and scalable solutions.
             </p>
 
             <ul className="about-me-detail flex flex-wrap text-[0.85em] text-white">
@@ -53,10 +50,10 @@ export default function Modal({isOpen, setIsOpen}) {
                 #css
               </li>
               <li className=" py-[0.4em] px-[0.8em] rounded-[50px] mb-[0.5em] mr-[0.5em] border border-gray-700 ">
-                #sass
+                #java
               </li>
               <li className=" py-[0.4em] px-[0.8em] rounded-[50px] mb-[0.5em] mr-[0.5em] border border-gray-700 ">
-                #bootstrap
+                #nextjs
               </li>
               <li className=" py-[0.4em] px-[0.8em] rounded-[50px] mb-[0.5em] mr-[0.5em] border border-gray-700 ">
                 #tailwind
@@ -69,9 +66,6 @@ export default function Modal({isOpen, setIsOpen}) {
               </li>
               <li className=" py-[0.4em] px-[0.8em] rounded-[50px] mb-[0.5em] mr-[0.5em] border border-gray-700 ">
                 #terminal
-              </li>
-              <li className=" py-[0.4em] px-[0.8em] rounded-[50px] mb-[0.5em] mr-[0.5em] border border-gray-700 ">
-                #figma
               </li>
             </ul>
             <div className="tooltip">
