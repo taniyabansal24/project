@@ -9,7 +9,7 @@ const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="flex flex-col sm:flex-row items-center text-white font-['Numito'] w-[96%]">
+    <div className="flex flex-col sm:flex-row items-center text-white font-['Numito'] w-[100%] sm:w-[96%]">
       <div className="content z-10 w-[85%]">
         <h1 className="text-[30px] sm:text-[40px] md:text-[50px] lg:text-[64px] font-['Spartan']">
           Taniya Bansal
