@@ -6,7 +6,7 @@ const Header = () => {
     <div className="filter invert-[1] flex justify-between items-center text-3xl sm:pt-4">
       <img src={logo} alt="Logo" className="w-[7rem] h-[2rem] sm:w-auto sm:h-auto" />
       <a
-        href="https://drive.google.com/file/d/1Eh_coZmhRI3pFzvNHEgZrfTkuxfJrxv-/view?usp=sharing" // Update this with the correct resume path
+        href="https://drive.google.com/file/d/1z02blicd2AWuX7UR9ZUKbhcafNDnjFfR/view?usp=sharing" // Update this with the correct resume path
         download
         className="bg-blue-600 text-white px-4 py-2 text-lg rounded-lg font-semibold hover:bg-blue-700 transition"
       >
